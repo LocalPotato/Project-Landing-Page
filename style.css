@@ -1,8 +1,7 @@
 body{
     margin: 0px;
-    background-color: black;
 }
-.header,.footer{
+.header,.footer,.banner{
     background-color: #1F2937;
     color: white;
 }
@@ -24,3 +23,32 @@ ul{
     gap: 25px;
     font-size: 18px;
 }
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 80px;
+}
+
+.main-heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero{
+    width: 400px;
+}
+
+.image{
+    display: flex;
+    background-color: #a5aaa0;
+    color: white;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
