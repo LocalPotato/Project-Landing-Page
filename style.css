@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.header,.footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header{
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.904);
+}
+
+ul{
+    padding-left: 100px;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
