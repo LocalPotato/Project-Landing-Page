@@ -80,7 +80,8 @@ button{
 }
 
 .information div{
-    width: 100px;
+    width: 150px;
+    color: #615e5e;
 }
 .information div img{
     border: 5px solid rgb(105, 238, 255);
